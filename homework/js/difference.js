@@ -1,5 +1,5 @@
-function square(n){
-    return n*n;
+function square(x){
+    return x*x;
 }
 var h = 0.00001;
 function df(f,x){
