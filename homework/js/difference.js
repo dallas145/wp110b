@@ -6,3 +6,4 @@ function df(f,x){
     return (f(x+h)-f(x))/h;
 }
 console.log(df(square,5));
+console.log(df((x)=>x*x,5));
