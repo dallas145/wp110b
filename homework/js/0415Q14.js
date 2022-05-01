@@ -26,9 +26,10 @@ class Ratio {
         return this.a + '/' + this.b;
     }
 }
-var r1 = new Ratio(1,3);
-var r2 = new Ratio(2,7);
+var r1 = new Ratio(23,2);
+var r2 = new Ratio(77,2);
 var r3 = r1.mul(r2);
+var r5 = r1.add(r2);
 var r4 = new Ratio(128,1024);
-r4.reduce();
-console.log(r4.toString());
+r5.reduce();
+console.log(r5.toString());
