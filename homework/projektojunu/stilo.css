@@ -1,0 +1,114 @@
+body{
+    background-color:#FDF5E6;
+}
+button{
+	padding: 9px 16px;
+    margin: 2px;
+    background-color:#00FF00;
+    color:white;
+    border:2px #FFFFFF solid;
+    border-radius:5px;
+    opacity:1;
+    transition:0.4s;
+    cursor: pointer;
+}
+
+.primary{
+	background-color:#008000;
+}
+.primary:hover{
+	background-color:#FFFFFF;
+    color:#000000;
+    border:2px #008000 solid;
+}
+.secondary{
+	background-color:#708090;
+}
+.secondary:hover{
+	background-color:#FFFFFF;
+    color:#000000;
+    border:2px #708090 solid;
+}
+.success{
+	background-color:RoyalBlue;
+}
+.success:hover{
+	background-color:#FFFFFF;
+    color:#000000;
+    border:2px RoyalBlue solid;
+}
+.danger{
+	background-color:Maroon;
+}
+.danger:hover{
+	background-color:DarkRed;
+    border:2px Maroon solid;
+}
+.warning{
+	background-color:Gold;
+    color:black;
+}
+.warning:hover{
+	background-color:#FFFFFF;
+    color:black;
+    border:2px Gold solid;
+}
+.info{
+	background-color:SkyBlue;
+    color:#F0FFFF
+}
+.info:hover{
+	background-color:#FFFFFF;
+    color:#0F0000;
+    border:2px SkyBlue solid;
+}
+.light{
+	background-color:#F0FFF0;
+    color:#696969;
+}
+.light:hover{
+	background-color:#E0EEE0;
+    color:#414141;
+    border:2px #D0DDD0 solid;
+}
+.dark{
+	background-color:#0A2A0F;
+    color:#FFFAFA;
+}
+.dark:hover{
+	background-color:#2A4A2F;
+    color:#FFFAFA;
+    border:2px #09290E solid;
+}
+div{
+   width: 100%;
+    text-align: center;
+}
+input[type=text],input[type="password"]{
+    padding:5px 15px;
+    margin:2px;
+    width: 250px;
+    border: 2px #808080 solid;
+    border-radius: 10px; 
+    background-color: #F8F8FF;
+}
+.topbar {
+    overflow: hidden;
+    background-color: rgb(17, 17, 17);
+}
+.topbar a{
+    float:left;
+    color:#F8F8FF;
+    text-align: center;
+    padding: 11px 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topbar a:hover{
+    background-color: rgb(204, 204, 204);
+    color: #000000;
+}
+.topbar a.ing{
+    background-color: forestgreen;
+    color: #F8F8FF;
+}
