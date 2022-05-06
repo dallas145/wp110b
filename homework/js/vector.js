@@ -60,4 +60,5 @@ console.log('p.neg = ('+ p.neg().toString()+')');
 console.log('p.add(p2) = ('+ p.add(p2).toString()+')');
 console.log('p.sub(p2)=('+ p.sub(p2)+')');
 console.log('p.dot(p2)=', p.dot(p2));
-console.log('p.sub(p2).length()=', p.sub(p2).length())
+console.log('p.sub(p2).length()=', p.sub(p2).length());
+console.log('p.distance(p2)=', p.distance(p2));
