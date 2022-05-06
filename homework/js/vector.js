@@ -4,15 +4,11 @@ class Vector {
   }
 
   length() {
-    var x =[];
+    var x =0;
     for(let i=0;i<this.a.length;i++){
-      x[i] = Math.pow(this.a[i],2);
+      x += Math.pow(this.a[i],2);
     }
-    let x1=0;
-    for(let i=0;i<x.length;i++){
-    x1 += x[i];
-    }
-    return Math.sqrt(x1);
+    return Math.sqrt(x);
   }
 
   neg() {
