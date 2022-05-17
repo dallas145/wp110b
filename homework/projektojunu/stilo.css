@@ -81,8 +81,14 @@ button{
     border:2px #09290E solid;
 }
 .login{
-   width: 100%;
+    width: 50%;
     text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.15),0 10px 10px 0 rgba(0,0,0,0.19);
 }
 input[type=text],input[type="password"]{
     padding:5px 15px;
@@ -161,4 +167,7 @@ input[type=text],input[type="password"]{
 .teksto{
     font-size: 35px;
     text-align: center;
+}
+.block{
+    display: block;
 }
