@@ -24,12 +24,20 @@
             <h1>Forget</h1>
             <tr><p>Enter your E-mail and we will not send your password to you.</p></tr>
             <tr>
-                <td><p><input type="text" name="email" value="" placeholder="Your Email"></p></td>
+                <td><p><input type="text" name="email" value="" placeholder="Your Email" id="email"></p></td>
             </tr>
-            <tr><form><a href="forgive.html">
-                <button type="button" class="success">Submit</button></a>
-            </form>
+            <tr>
+                <button type="button" class="success" onclick="submit()">Submit</button>
             </tr>
+            <script>
+                function submit(){
+                    var c1=document.getElementById("email");
+                    var emailRegxp = /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z]+$/;
+                    if (c1.value=="")alert("You didn't input your email.");
+                    else if (c1.value.search(emailRegxp)==-1)alert("Wrong format of email.");
+                    else location="forgive.html";
+                }
+            </script>
         </div>
     </body>
 </html>
