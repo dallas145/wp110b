@@ -8,7 +8,7 @@
 
 ---
 
-# 使用方法:
+# 程式內容:
 
 ## 首頁
 
@@ -28,4 +28,13 @@
 
 點擊` Cubes:轉動代號 `將會直接開啟[一小時學盲解](https://1hrbld.tw/intermediate-selection-panel/333-cube-notation/)網頁。
 
-點擊` Cubes `將會跳轉至` du.html `
+點擊` Cubes `將會跳轉至` du.html `頁面。
+
+Top bar 的按鈕會根據你所在的頁面改變相應的按鈕顏色。
+
+## 內容頁面
+
+` du.html `是內容頁面，因為實在不知道要放些什麼，所以我把平時興趣(魔術方塊)放進去。
+
+整合了魔術方塊的OLL公式和PLL公式，按下` 影片教學 `會開啟相應公式的操作影片。影片來自[Youtube](https://youtube.com/)
+
