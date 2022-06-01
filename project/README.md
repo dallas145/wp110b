@@ -64,7 +64,7 @@ Top bar 的按鈕會根據你所在的頁面改變相應的按鈕顏色。
 
 點擊` Don't have an account? `會進入註冊頁面(` rigistri.html `)。
 
-點擊` Forget your password? `進入忘記密碼頁面(` gorget.html `)。
+點擊` Forget your password? `進入忘記密碼頁面(` forget.html `)。
 
 ### 註冊頁面
 
@@ -80,7 +80,7 @@ Top bar 的按鈕會根據你所在的頁面改變相應的按鈕顏色。
 
 若無輸入或格式不符，會跳出相應的` alert() `。
 
-若輸入成功，會跳出` alert() `：系統尚未建置 為您跳轉至首頁，並跳轉至` unu.html `。
+若輸入成功，會跳轉至` forgive.html `，按下` Back to home page `按鈕即可回到首頁(不會寄送任何電子郵件)。
 
 ## About 
 
