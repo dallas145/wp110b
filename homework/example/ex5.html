@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>網頁標題</title>
+</head>
+<body>
+<button onclick="A()">ALERT</button>
+<button onclick="B()">CONFIRM</button>
+<button onclick="C()">PROMPT</button>
+<script>
+    function A(){
+        alert("This is Alert.");
+    }
+    function B(){
+        if(confirm("This is confirm")==true)alert("This is confirm.");
+        else alert("This is confirm");
+    }
+    function C(){
+        var n=prompt("This is prompt, try to enter something.");
+        if(n==""||n==null)alert("You enter nothing.");
+        else alert(n);
+    }
+</script>
+</body>
+</html>
