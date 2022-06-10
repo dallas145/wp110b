@@ -6,6 +6,8 @@
 
 3. [下拉選單](https://gitlab.com/ccc110/wp/-/tree/master/11-app/dropdown)
 
+# 其餘部分皆為自創
+
 ---
 
 # 本程式僅作為練習成果的呈現

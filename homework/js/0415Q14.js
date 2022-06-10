@@ -27,9 +27,13 @@ class Ratio {
     }
 }
 var r1 = new Ratio(23,2);
-var r2 = new Ratio(77,2);
-var r3 = r1.mul(r2);
+var r2 = new Ratio(154,4);
+var r3 = r2.mul(r1);
 var r5 = r1.add(r2);
 var r4 = new Ratio(128,1024);
+r3.reduce()
 r5.reduce();
+r4.reduce();
 console.log(r5.toString());
+console.log(r4.toString());
+console.log(r3.toString());
