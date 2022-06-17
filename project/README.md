@@ -68,7 +68,7 @@ Top bar 的按鈕會根據你所在的頁面改變相應的按鈕顏色。
 
 ### 註冊頁面
 
-按下註冊頁面的` Submit `按鈕後，會使用 JavaScript 偵測所有欄位是否符合規定(Username >= 4; Password >=8; Repeat Password; Email format; CheckBox)。
+按下註冊頁面的` Submit `按鈕後，會使用 JavaScript 偵測所有欄位字數是否符合規定(Username >= 4; Password >=8; Repeat Password; Email format; CheckBox)。
 
 若不符合將會跳出相應的` alert() `。
 
